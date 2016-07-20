@@ -1,3 +1,48 @@
 <template name="_header">
 
+  <!-- based off of https://getbootstrap.com/examples/navbar-static-top/ and Meteor JS BoilerPlate by Differential-->
+
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <p class="navbar-text navbar-right">Pancake Clicker</p>
+      </div>
+
+      <div>
+        {{#if currentUser}} <!-- user logged in -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-user"></i> {{ currentUser.profile.name }} <i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#" data-action="logout"><i class="fa fa-lock"></i> Sign Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        {{else}} <!-- user not logged in -->
+          <div class="navbar-right">
+            <a href="{{ pathFor 'atSignIn' }}" class="btn btn-default navbar-btn">Sign in</a>
+            <a href="{{ pathFor 'atSignUp' }}" class="btn btn-primary navbar-btn">Register</a>
+          </div>
+        {{/if}}
+
+        <!-- shown regardless of whether or not user is logged in -->
+        <ul class="nav navbar-nav navbar-right">
+          <li class="{{ isActiveRoute regex='home' }}"><a href="{{ pathFor 'home' }}"><i class="fa fa-home"></i> Home</a></li>
+          <li class="{{ isActiveRoute regex='topScores' }}"><a href="{{ pathFor 'topScores' }}"><i class="fa fa-angle-double-right"></i> Top Scores</a></li>
+          <li class="{{ isActiveRoute regex='playGame' }}"><a href="{{ pathFor 'playGame' }}"><i class="fa fa-angle-double-right"></i> Play Game</a></li>
+          <li class="{{ isActiveRoute regex='profile' }}"><a href="{{ pathFor 'profile' }}"><i class="fa fa-angle-double-right"></i> Profile</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
 </template>

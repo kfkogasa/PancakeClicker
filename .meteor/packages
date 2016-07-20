@@ -20,8 +20,14 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 
+accounts-ui             # Add accounts
+accounts-password
+
+twbs:bootstrap          # For styling
+useraccounts:bootstrap  # Needed for ensureSignedIn tabs
+
 iron:router             # Add routes for navigating
 zimme:active-route      # Active route helpers
 useraccounts:iron-routing # Add route configurations
-accounts-ui
-accounts-password
+
+
