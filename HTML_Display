@@ -1,0 +1,13 @@
+<html><body>
+<h4>
+Pancake Clicker Applet.
+</h4>
+ <p>
+  <applet code="Pancake.class" archive="Pancake.jar"
+   width="800" height="800"></applet>
+ </p>
+ <p>
+  <object codetype="application/java" classid="java:Pancake.class"
+   archive="Pancake.jar" width="800" height="800"></object>
+ </p>
+</body></html>
