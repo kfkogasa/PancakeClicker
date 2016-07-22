@@ -7,10 +7,10 @@ Date: July 22, 2016
 Team Beta:
 Kevin Beydler
 Kristin Kogasaka
-Sean Baram
+Sean Baran
 
 Kristin will be creating the layout of the website
-More roles have yet to be determined
+Sean and Kevin will be developing the Pancake Clicker Application
 
 Updates:
 7/19/2016
