@@ -21,3 +21,4 @@ Repository created, everyone added to it as collaborators
   added twbs:bootstrap for styling -kris
 7/22/2016
   added HTML to display Java applet file - kevin
+  updated HTML to display the pancake object in a box - kevin
