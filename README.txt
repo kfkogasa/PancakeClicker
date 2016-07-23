@@ -1,8 +1,8 @@
 # PancakeClicker
 
-ICS491
+ICS 491
 
-Date: July 22, 2016
+Date: July 23, 2016
 
 Team Beta:
 Kevin Beydler
@@ -12,7 +12,8 @@ Sean Baran
 Kristin will be creating the layout of the website
 Sean and Kevin will be developing the Pancake Clicker Application
 
-Updates:
+VERSION 1:
+--------------
 7/19/2016
 Repository created, everyone added to it as collaborators
 7/19/16
@@ -26,7 +27,7 @@ Repository created, everyone added to it as collaborators
 
 =======
   updated Javascript to color pancake, created Stylesheet - sean
-  
+
 TODO: 
 A page for the HTML/JS Pancake Application itself. 
 A page for the outside user login/ score display board. 
@@ -39,3 +40,20 @@ A page that allows the user to get their forgotten user/password sent to their e
 More responsiveness or additions to the Pancake clicker.
 Listing the users with the highest scores on the scoreboard and having it displayed on the homepage and the pancake page.
 >>>>>>> origin/master
+
+------------------
+
+VERSION 2:
+------------------
+
+
+------------------
+
+VERSION 3:
+------------------
+
+
+------------------
+
+
+
