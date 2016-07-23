@@ -22,3 +22,4 @@ Repository created, everyone added to it as collaborators
 7/22/2016
   added HTML to display Java applet file - kevin
   updated HTML to display the pancake object in a box - kevin
+  Colored Pancake, Created and made small changes to PancakeClicker.css
