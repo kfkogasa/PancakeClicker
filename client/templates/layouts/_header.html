@@ -38,8 +38,8 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="{{ isActiveRoute regex='home' }}"><a href="{{ pathFor 'home' }}"><i class="fa fa-home"></i> Home</a></li>
           <li class="{{ isActiveRoute regex='topScores' }}"><a href="{{ pathFor 'topScores' }}"><i class="fa fa-angle-double-right"></i> Top Scores</a></li>
-          <li class="{{ isActiveRoute regex='playGame' }}"><a href="{{ pathFor 'playGame' }}"><i class="fa fa-angle-double-right"></i> Play Game</a></li>
-          <li class="{{ isActiveRoute regex='profile' }}"><a href="{{ pathFor 'profile' }}"><i class="fa fa-angle-double-right"></i> Profile</a></li>
+          <li class="{{ isActiveRoute regex='playGame' }}"><a href="{{ pathFor 'playGame' }}"><i class="fa fa-angle-double-right"></i> Play Game</a></li> <!-- User can only navigate here if logged in, otherwise goes to sign in page -->
+          <li class="{{ isActiveRoute regex='profile' }}"><a href="{{ pathFor 'profile' }}"><i class="fa fa-angle-double-right"></i> Profile</a></li> <!-- User can only navigate here if logged in, otherwise goes to sign in page -->
         </ul>
       </div>
 

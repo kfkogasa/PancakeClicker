@@ -2,5 +2,12 @@
   added accounts-ui and accounts-password for user accounts -kris
   added useraccounts:iron-routing, iron:router and active-route package to add routes and configurations for navigation -kris
   added twbs:bootstrap for styling -kris
+  navbar and register/login done (register/login still currently only using email) -kris
+
 7/22/2016
   added HTML to display Java applet file - kevin
+
+7/23/16
+  HTMLDisplay file integrated into playGame.html -kris
+  moved stylesheet to appropriate directory (also changed background color) -kris
+  all templates created with routes and route permissions -kris
