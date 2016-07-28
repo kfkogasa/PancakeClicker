@@ -11,8 +11,6 @@
         Click on the Pancake to get points!
       </p>
       
-      <input type="button" value="Pancake Button" id="countButton" />
-      
       <p>The Pancake Button was clicked on: <span id="displayCount">0</span> times.</p>
       
       <!-- Creates 400 x 400 px box for Javascript pancake obj -->
@@ -24,7 +22,6 @@
       <script>
         var count = 0;
         var c = document.getElementById("Pancake");
-        var button = document.getElementById("countButton");
         var display = document.getElementById("displayCount");
         var ctx = c.getContext("2d");
         ctx.beginPath();
@@ -32,19 +29,34 @@
         ctx.stroke();
         ctx.fillStyle = "#ffd480";
         ctx.fill();
-        
-      button.onclick = function()
-      {
-        count++;
-        display.innerHTML = count;
-      }
+
+        document.getElementById("Pancake").addEventListener("click", function(){
+          count++;
+          display.innerHTML = count;
+        });
+
       </script>
+
+
 
       <br>
       <br>
+
+      <br>
+      <a href="http://localhost:/Pancake/web/WEB-INF/home.html" target="_blank">View HomePage!</a>
+      <br>
+      <a href="http://localhost:/Pancake/web/WEB-INF/TopScores.html" target="_blank">View Top Scores!</a>
+      <br>
+
+      <!-- input the localhost number after “localhost:” in order for these links to work
+ -->
+
     </div>
   </div>
+
 </template>
+
+
 
 <!-- TODO:
 1) Create a sprite inside the pancake to interact when clicked upon - use a function name numberOfClicks() to have it pulled to the HTML click display.

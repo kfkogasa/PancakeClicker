@@ -52,7 +52,7 @@ Kevin:
 2) Installed a temp clicking object that increments per each click made by the client-side user and shows how many clicks were made.
 
 Sean: 
-1) Worked on the clickability of the actual pancake object.
+1) Worked on the clickability of the actual pancake object. Still need to restrict it to just the actual pancake rather than the canvas
 
 
 Projections:
