@@ -2,8 +2,19 @@
   <div class="template-playGame">
     <div class="page-header">
       <h1>Play Pancake Clicker</h1>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     </div>
     <div class="page-body">
+      
+      <p>
+        <br>
+        Click on the Pancake to get points!
+      </p>
+      
+      <input type="button" value="Pancake Button" id="countButton" />
+      
+      <p>The Pancake Button was clicked on: <span id="displayCount">0</span> times.</p>
+      
       <!-- Creates 400 x 400 px box for Javascript pancake obj -->
       <canvas id="Pancake" width="400" height="400" style="border:1px solid #d3d3d3;">
         ERROR: Your browser does not support the HTML5 canvas tag.
@@ -11,22 +22,24 @@
 
       <!-- HTML Calls the Javascript code script snippet to draw the pancake object inside the box -->
       <script>
+        var count = 0;
         var c = document.getElementById("Pancake");
+        var button = document.getElementById("countButton");
+        var display = document.getElementById("displayCount");
         var ctx = c.getContext("2d");
         ctx.beginPath();
         ctx.arc(195, 180, 140, 0, 2 * Math.PI);
         ctx.stroke();
         ctx.fillStyle = "#ffd480";
         ctx.fill();
+        
+      button.onclick = function()
+      {
+        count++;
+        display.innerHTML = count;
+      }
       </script>
 
-      <p>
-        <br>
-        Click on the Pancake to get points!
-      </p>
-
-      <!-- This div tag: pulls the Javascript function "numberOfClicks()" and substitutes &nbsp; with the click amount -->
-      <div>You've clicked <span data-bind='text: numberOfClicks'>&nbsp;</span> times</div>
       <br>
       <br>
     </div>
