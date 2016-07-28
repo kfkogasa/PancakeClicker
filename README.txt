@@ -2,7 +2,7 @@
 
 ICS 491
 
-Date: July 23, 2016
+Date: July 28, 2016
 
 Team Beta:
 Kevin Beydler
@@ -43,6 +43,21 @@ More responsiveness or additions to the Pancake clicker.
 
 VERSION 2:
 ------------------
+
+Kristine: 
+
+
+Kevin: 
+1) Made 404 Not Found (redirect to this page if any URLs are invalid to prevent any possible exploit/injection). 
+2) Installed a temp clicking object that increments per each click made by the client-side user and shows how many clicks were made.
+
+Sean: 
+1) Worked on the clickability of the actual pancake object.
+
+
+Projections:
+- Considering separating the Js from the HTML of the Pancake game and call the Js using the HTML so that multiple HTML files can call the same Js and potentially allow for a scores page and game to be in sync with the number of clicks.
+- Implementing a scoring system
 
 
 ------------------
