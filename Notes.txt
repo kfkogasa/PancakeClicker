@@ -13,4 +13,6 @@
   all templates created with routes and route permissions -kris
 
 7/38/16
-  Custom register created.  Creates user in database using username, email, and password.  Also includes checkbox to accept privacy disclosure. (previously used default email and password) -kris
+  Custom register created.  Creates user in database using unique username, unique email, and password.  Also includes checkbox to accept privacy disclosure. (previously used default email and password) -kris
+  Proper error handling for user inputs (all fields required, password is entered twice and must match, and both must match, username already exists, email already exists). Users are notified of error -kris
+  Redirect to atSignIn template after successful registration -kris

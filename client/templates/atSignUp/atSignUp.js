@@ -16,12 +16,17 @@ Template.atSignUp.events({
       var username = event.target.username.value;
       var email = event.target.email.value;
 
-      Meteor.call('createAccount', username, email, password1);
-
-      Router.go('home');
+      Meteor.call('createAccount', username, email, password1, function (error) {
+        if (error) { //something happened, display error on page
+          document.getElementById("error").innerHTML = error.reason;
+        }
+        else { //redirect to sign-in page after successful registration
+          Router.go('atSignIn');
+        }
+      });
     }
     else { //passwords don't match
-      alert("Passwords do not match.");
+      document.getElementById("error").innerHTML = "Passwords do not match";
     }
   }
 });

@@ -3,3 +3,7 @@ body {
     font-family: Verdana, Geneva, sans-serif;
     background-color: #bfd2f2;
 }
+
+#error {
+    color: red;
+}
