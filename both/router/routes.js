@@ -17,6 +17,10 @@ Router.route('/profile', {
   name: 'profile'
 });
 
+Router.route('/sign-up', {
+  name: 'atSignUp'
+});
+
 /**
  * Users must be logged in to play game or view user profile
  */

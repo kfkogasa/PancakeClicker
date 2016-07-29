@@ -11,3 +11,6 @@
   HTMLDisplay file integrated into playGame.html -kris
   moved stylesheet to appropriate directory (also changed background color) -kris
   all templates created with routes and route permissions -kris
+
+7/38/16
+  Custom register created.  Creates user in database using username, email, and password.  Also includes checkbox to accept privacy disclosure. (previously used default email and password) -kris

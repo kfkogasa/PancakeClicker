@@ -44,8 +44,8 @@ More responsiveness or additions to the Pancake clicker.
 VERSION 2:
 ------------------
 
-Kristine: 
-
+Kristin:
+Created register page to override the default.  JavaScript files created on client and server side to create account.  Tested to ensure username and email must not be associated with another account.
 
 Kevin: 
 1) Made 404 Not Found (redirect to this page if any URLs are invalid to prevent any possible exploit/injection). 
