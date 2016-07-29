@@ -50,6 +50,8 @@ Kristine:
 Kevin: 
 1) Made 404 Not Found (redirect to this page if any URLs are invalid to prevent any possible exploit/injection). 
 2) Installed a temp clicking object that increments per each click made by the client-side user and shows how many clicks were made.
+3) Made "Save Button" prototype (intend to make it actually save the score to the sql db or display it to the topscore page)
+4) Cleaned up code, Commented and explained most of the code for playGame.html
 
 Sean: 
 1) Worked on the clickability of the actual pancake object. Still need to restrict it to just the actual pancake rather than the canvas
