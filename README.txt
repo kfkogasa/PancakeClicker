@@ -32,12 +32,12 @@ VERSION 1:
 
 TODO:
 Responsiveness for the Pancake to actually count the clicks.
-Username upon registration and to login.
 Top Scores and User Profile pages.
 
 Potentials:
 A page that allows the user to get their forgotten user/password sent to their email if forgotten.
 More responsiveness or additions to the Pancake clicker.
+Login with username instead of email
 
 ------------------
 
@@ -46,8 +46,8 @@ VERSION 2:
 
 Kristin:
 Created register page to override the default.  JavaScript files created on client and server side to create account.  Tested to ensure username and email must not be associated with another account.
-Proper error handling for user inputs (all fields required, password is entered twice and must match, and both must match, username already exists, email already exists). Users are notified of error.
-Redirect user to sign-in page after successful registration
+Proper error handling for user inputs (all fields required, password is entered twice and must match, username already exists, email already exists). Users are notified of error.
+Redirect user to sign-in page after successful registration.
 
 Kevin: 
 1) Made 404 Not Found (redirect to this page if any URLs are invalid to prevent any possible exploit/injection). 
