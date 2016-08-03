@@ -72,6 +72,7 @@ Kristin:
 Logout function added
 Fixed navbar icons
 Created TopScore Collection to hold user's top scores, topScores can be modified only by the user it is associated with (through the pancake clicker game)
+Profile page displays username, email, and current top score
 
 ------------------
 

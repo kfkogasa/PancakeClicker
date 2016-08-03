@@ -21,3 +21,8 @@
   Logout functions added -kris
   added fortawesome:fontawesome for icons in navbar -kris
   TopSore Collection created with methods -kris
+
+8/3/16
+  Helpers created for displaying username and email -kris
+  Profile page displays username, email, and current top score -kris
+  Username display tested safe from attempted script injection -kris
