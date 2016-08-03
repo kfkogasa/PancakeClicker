@@ -17,5 +17,6 @@
   Proper error handling for user inputs (all fields required, password is entered twice and must match, and both must match, username already exists, email already exists). Users are notified of error -kris
   Redirect to atSignIn template after successful registration -kris
 
-7/29/16
+8/2/16
   Logout functions added -kris
+  added fortawesome:fontawesome for icons in navbar -kris

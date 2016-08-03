@@ -68,7 +68,9 @@ Projections:
 
 VERSION 3:
 ------------------
-
+Kristin:
+Logout function added
+Fixed navbar icons
 
 ------------------
 

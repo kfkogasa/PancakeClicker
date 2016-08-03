@@ -24,6 +24,8 @@ accounts-ui             # Add accounts
 accounts-password
 
 twbs:bootstrap          # For styling
+fortawesome:fontawesome # For icons in navbar
+
 useraccounts:bootstrap  # Needed for ensureSignedIn tabs
 
 iron:router             # Add routes for navigating
