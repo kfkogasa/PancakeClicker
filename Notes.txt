@@ -26,3 +26,4 @@
   Helpers created for displaying username and email -kris
   Profile page displays username, email, and current top score -kris
   Username display tested safe from attempted script injection -kris
+  Added privacy disclosure to Register page -kris
