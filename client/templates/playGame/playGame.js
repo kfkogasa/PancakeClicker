@@ -16,7 +16,6 @@ Template.playGame.onRendered(function () {
   document.getElementById("Pancake").addEventListener("click", function(){
   count++; //counts per click
   display.innerHTML = count; //passes the number of clicks to an HTML caller
-  document.getElementById("count").innerHTML = count;
   });
 });
 
