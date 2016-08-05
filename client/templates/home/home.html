@@ -4,14 +4,16 @@
       <h1>Pancake Clicker</h1>
     </div>
     <div class="page-body">
-      <p>Compete with other users to gain a high score in Pancake Clicker</p>
+      <h3>Compete with other users to gain a high score in Pancake Clicker</h3>
+      <br>
+
+      {{#if currentUser}} <!-- user logged in, display link to playGame.html-->
+        <a href="{{ pathFor 'playGame' }}">Start Playing Now</a>
+        {{else}} <!-- user not logged in, display links to sign-in and register pages-->
+      <p><a href="{{ pathFor 'atSignIn' }}">Sign In</a> or <a href="{{ pathFor 'atSignUp' }}">Register</a> to start playing</p>
+        {{/if}}
       <br>
       <br>
     </div>
   </div>
-        <!-- NOTE: Please insert your localhost number after "localhost:" to properly use links  -->
-        <br>
-        <a href="http://localhost:/Pancake/web/WEB-INF/game.html" target="_blank">Play Game!</a>
-        <br>
-        <a href="http://localhost:/Pancake/web/WEB-INF/TopScores.html" target="_blank">View Top Scores!</a>
 </template>

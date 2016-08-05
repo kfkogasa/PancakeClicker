@@ -27,3 +27,6 @@
   Profile page displays username, email, and current top score -kris
   Username display tested safe from attempted script injection -kris
   Added privacy disclosure to Register page -kris
+
+8/4/16
+  Removed broken links from Home page, replaced with links to register/sign-in if not signed in, and play game if signed in -kris
