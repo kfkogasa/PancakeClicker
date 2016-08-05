@@ -75,6 +75,7 @@ Created TopScore Collection to hold user's top scores, topScores can be modified
 Profile page displays username, email, and current top score
 Added Privacy Disclosure to Register Page
 Edited home page to display links based on whether or not logged in
+TopScore Collection in database now works with playGame, separated script from HTML file
 
 ------------------
 

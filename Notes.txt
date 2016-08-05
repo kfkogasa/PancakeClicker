@@ -30,3 +30,6 @@
 
 8/4/16
   Removed broken links from Home page, replaced with links to register/sign-in if not signed in, and play game if signed in -kris
+
+8/5/16
+  playGame page now works with TopScore collection in DB, adjusted method to update DB -kris
