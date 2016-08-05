@@ -78,5 +78,7 @@ Edited home page to display links based on whether or not logged in
 
 ------------------
 
+Sean:
 
+Removed links from bottom of Top Scores and Play Game
 
