@@ -1,25 +1,4 @@
 Meteor.methods({
-
-  /**
-   * Returns current user's top score
-   * If none exists, returns 0
-   */
-  findTopScore: function() {
-    var topScore = TopScore.findOne({
-      owner: Meteor.userId()
-    });
-
-    // no top score in DB
-    if (!topScore) {
-      return 0;
-    }
-
-    //return top score
-    else {
-      return topScore;
-    }
-  },
-
   /**
    * Creates top score entry if non exists yet,
    * otherwise updates the current top score entry

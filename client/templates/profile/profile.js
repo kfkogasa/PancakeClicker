@@ -1,12 +1,15 @@
 Template.profile.onRendered(function () {
-  var topScore = Meteor.call("findTopScore");
-  //user doesn't have a score yet, display 0
-  if (!topScore) {
-    var displayScore = 0;
+  /**
+   * displays current user's top score
+   * If none exists, displays 0
+   */
+  var scoreInfo = TopScore.findOne({owner: Meteor.userId()});
+  //user doesn't have a score in the DB
+  if(!scoreInfo) {
+    document.getElementById('topScore').innerHTML = "0";
   }
-  //otherwise display the top score in the DB
+  //display the user's top score
   else {
-    var displayScore = topScore;
+    document.getElementById('topScore').innerHTML = scoreInfo.topScore;
   }
-  document.getElementById('topScore').innerHTML = displayScore;
 });
