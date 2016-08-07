@@ -12,5 +12,6 @@ Meteor.methods({
       email: email,
       password: password
     })
-  }
+  },
+
 });

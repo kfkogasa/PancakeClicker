@@ -3,7 +3,7 @@ Template.profile.onRendered(function () {
    * displays current user's top score
    * If none exists, displays 0
    */
-  var scoreInfo = TopScore.findOne({owner: Meteor.userId()});
+  var scoreInfo = TopScore.findOne({owner: Meteor.users.findOne(Meteor.userId()).username});
   //user doesn't have a score in the DB
   if(!scoreInfo) {
     document.getElementById('topScore').innerHTML = "0";
