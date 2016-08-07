@@ -69,16 +69,17 @@ Projections:
 VERSION 3:
 ------------------
 Kristin:
-Logout function added
-Fixed navbar icons
-Created TopScore Collection to hold user's top scores, topScores can be modified only by the user it is associated with (through the pancake clicker game)
-Profile page displays username, email, and current top score
-Added Privacy Disclosure to Register Page
-Edited home page to display links based on whether or not logged in
-TopScore Collection in database now works with playGame, separated script from HTML file
-TopScores page displays usernames and top scores in descending order
-Fixed some bugs in profile page and incorrect redirection if user registers and immediately signs in
+Logout function added.
+Fixed navbar icons.
+Created TopScore Collection to hold user's top scores, topScores can be modified only by the user it is associated with (through the pancake clicker game).
+Profile page displays username, email, and current top score.
+Added Privacy Disclosure to Register Page.
+Edited home page to display links based on whether or not logged in.
+TopScore Collection in database now works with playGame, separated script from HTML file.
+TopScores page displays usernames and top scores in descending order.
+Fixed some bugs in profile page and incorrect redirection if user registers and immediately signs in.
 Replaced insecure and autopublish packages with methods to publish/subscribe and made adjustments throughout the project to accommodate these changes.
+Added notFound page and configured.
 
 ------------------
 

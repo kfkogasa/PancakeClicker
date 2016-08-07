@@ -40,3 +40,4 @@
   Fixed bug when users register and immediately sign in (used to redirect back to register page, but now goes to homepage) -kris
   Removed insecure and autopublish packages (was in there for prototyping) -kris
   Inserted subscribe and publish methods -kris
+  Added notFound.html and configured route -kris
