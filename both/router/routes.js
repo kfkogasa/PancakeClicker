@@ -18,7 +18,8 @@ Router.route('/profile', {
 });
 
 Router.route('/sign-up', {
-  name: 'atSignUp'
+  name: 'atSignUp',
+  redirect: 'atSignIn'
 });
 
 /**

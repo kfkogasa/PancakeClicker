@@ -35,4 +35,6 @@
   playGame page now works with TopScore collection in DB, adjusted method to update DB -kris
 
 8/6/16
-  fixed bug displaying user's top score in profile page -kris
+  Fixed bug displaying user's top score in profile page -kris
+  Created and tested top scores page -kris
+  Fixed bug when users register and immediately sign in (used to redirect back to register page, but now goes to homepage) -kris
