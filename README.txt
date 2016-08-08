@@ -81,9 +81,11 @@ Fixed some bugs in profile page and incorrect redirection if user registers and 
 Replaced insecure and autopublish packages with methods to publish/subscribe and made adjustments throughout the project to accommodate these changes.
 Added notFound page and configured.
 
-------------------
-
 Sean:
-
 Removed links from bottom of Top Scores and Play Game
 
+------------------
+
+Closing Thoughts:
+This project is not perfect, but we fixed what flaws we could in the alloted time for this course.  We felt that a very important aspect of this project would be keeping sensitive information protected.  From our testing, we feel fairly confident that the sensitive information is safely handled.
+Overall, this project was a good experience in going through the Microsoft SDL to create and analyze the security aspects of our project.
