@@ -5,12 +5,12 @@ ICS 491
 Date: July 28, 2016
 
 Team Beta:
-Kevin Beydler
+K. B.
 Kristin Kogasaka
 Sean Baran
 
 Kristin will be creating the layout of the website
-Sean and Kevin will be developing the Pancake Clicker Application
+Sean and K. B. will be developing the Pancake Clicker Application
 
 VERSION 1:
 --------------
@@ -22,8 +22,8 @@ VERSION 1:
   added twbs:bootstrap for styling -kris
   navbar and register/login done (register/login still currently only using email) -kris
 7/22/2016
-  added HTML to display Java applet file - kevin
-  updated HTML to display the pancake object in a box - kevin
+  added HTML to display Java applet file - K. B.
+  updated HTML to display the pancake object in a box - K. B.
   updated Javascript to color pancake, created Stylesheet - sean
 7/23/16
   all templates created with routes and route permissions -kris
@@ -49,7 +49,7 @@ Created register page to override the default.  JavaScript files created on clie
 Proper error handling for user inputs (all fields required, password is entered twice and must match, username already exists, email already exists). Users are notified of error.
 Redirect user to sign-in page after successful registration.
 
-Kevin: 
+K. B.: 
 1) Made 404 Not Found (redirect to this page if any URLs are invalid to prevent any possible exploit/injection). 
 2) Installed a temp clicking object that increments per each click made by the client-side user and shows how many clicks were made.
 3) Made "Save Button" prototype (intend to make it actually save the score to the sql db or display it to the topscore page)
