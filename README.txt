@@ -6,8 +6,8 @@ Date: July 28, 2016
 
 Team Beta:
 K. B.
-Kristin Kogasaka
-Sean Baran
+Kristin
+Sean
 
 Kristin will be creating the layout of the website
 Sean and K. B. will be developing the Pancake Clicker Application
